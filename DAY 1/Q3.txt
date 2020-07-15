@@ -1,0 +1,26 @@
+Data Types in JS
+
+There are basic seven primitive Types of Datatypes
+
+1. Number: It represents both integers nd floating point numbers.
+eg: let n=10;
+
+2.String:This stores statements using single,double quotes
+eg:let str = "Hello";
+let str2 = 'Single quotes are ok too';
+
+3.Boolean: The boolean type has only two values: true and false.
+eg:let nameFieldChecked = true; // yes, name field is checked
+let ageFieldChecked = false; // no, age field is not checked
+
+4.null value: It contains only null values.
+eg: let age = null;
+
+5.undefined: The meaning of undefined is “value is not assigned”.
+If a variable is declared, but not assigned, then its value is undefined.
+eg: let age;
+alert(age); // shows "undefined"
+
+6.object: this is used for complex data structures
+
+7. symbol : used for unique identifiers

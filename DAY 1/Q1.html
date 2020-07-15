@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!--Question: Explore and explain various methods
+       in console function-->
+    <script type="text/javascript">
+      //Console.log is used to print a string,object etc on
+      //browser console.
+      console.log("This is console.log")
+
+      //Console.error is used to print a error message on browser console
+      console.error(101)
+
+      //Console.warning is used to print a warning message on browser console
+      console.warn('SOS Warning')
+
+      //Console.clear is used to clear the console
+      console.clear()
+
+      //Console.time() and timeEnd() are used to know the time spent by a block
+      console.time('a')
+      console.log(1)
+      console.log(2)
+      console.log(3)
+      console.log(4)
+      console.log(5)
+      console.timeEnd('a')
+
+      //Console.table is used to create a table inside a console(input must be array,obj)
+      console.table({'a':1, 'b':2})
+
+      //Console.count is used to count the number that the function hit by this counting method.
+      for(let i=0;i<5;i++){
+    console.count(i);
+    }
+
+    //Console.group() and groupEnd() is used to group contents in one block
+    console.group('simple');
+    console.warn('warning!');
+    console.error('error here');
+    console.log('last statement');
+    console.groupEnd('simple');
+    console.log('new block');
+
+    </script>
+  </body>
+</html>

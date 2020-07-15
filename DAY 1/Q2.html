@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!--Question: What is the difference between var,let and const
+  with code examples-->
+  <script type="text/javascript">
+      /*var has function scope and has a global scope if declared outside function
+      var do not have block scope
+        */
+        var Name = "Shein";
+          // var has function scope
+        function myFunc() {
+          var Name2 = "Sheena";
+        // code here CAN use Name
+          }
+
+     /*let has block scope let declared in a block cannot be accessed from outside block
+     */
+     {
+       let x = 2;
+     }
+     // x can NOT be used here
+
+     /*const has a block scope and they cannot be changed or updated
+     */
+     const P = 20;
+     P = 23;      // This will give an error
+     P = P + 10;   // This will also give an error
+
+  </script>
+
+  </body>
+</html>
