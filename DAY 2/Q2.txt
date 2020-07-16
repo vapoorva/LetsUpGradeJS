@@ -1,1 +1,38 @@
-sdgg
+Methods of String in JavaScript
+1.includes(): This Checks whether a string contains the specified string/characters.
+syntax: string.includes(searchvalue, start)
+
+2.localeCompare(): This	Compares two strings in the current locale
+Syntax: string.localeCompare(compareString)
+
+3. replace()	: This Searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced.Synatx:string.replace(searchvalue, newvalue)
+
+4.search(): This Searches a string for a specified value, or regular expression, and returns the position of the match
+Syntax: string.search(searchvalue)
+
+5.split(): This Splits a string into an array of substrings. Syntax:string.split(separator, limit)
+
+6. trim(): This	Removes whitespace from both ends of a string.Syntax:string.trim()
+
+7.substr(): This Extracts the characters from a string, beginning at a specified start position, and through the specified number of character
+syntax:string.substr(start, length)
+
+Methods of Array in JavaScript
+1.copyWithin():Copies array elements within the array, to and from specified positions.
+syntax:array.copyWithin(target, start, end)
+
+2.every():Checks if every element in an array pass a test
+Syntax: array.every(function(currentValue, index, arr), thisValue)
+
+3. fill():	Fill the elements in an array with a static value.Synatx:array.fill(value, start, end)
+
+4.from()	:Creates an array from an object
+Syntax: Array.from(object, mapFunction, thisValue)
+
+5.some():Checks if any of the elements in an array pass a test. Syntax:array.some(function(currentValue, index, arr), thisValue)
+
+6. join()	:Joins all elements of an array into a string.Syntax:array.join(separator)
+
+7.sort():	Sorts the elements of an array
+syntax:array.sort(compareFunction)
+
