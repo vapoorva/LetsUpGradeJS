@@ -1,0 +1,3 @@
+This Project i random Quote generator.
+whenever the user click on the button a random quote is generated
+Api is used in the project to acquire random quote
